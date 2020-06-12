@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DataSchool</title>
+  </head>
+  <body>
+
+    <div class="container navbar">
+      <header>
+        <div class="lgo">
+          <h1>Jhessy</h1>
+        </div>
+          <nav>
+            <ul>
+              <li><a href="#about">about me</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#work">my work</a></li>
+            </ul>
+          </nav>
+      </header>
+    </div>
+
+    <div class="container main-info-section">
+      <div class="text">
+        <h1>
+          <span>H</span>
+          <span class="m-left">i</span>
+          <span class="m-left">,</span>
+          <br>
+          <span>I</span>
+          <span class="m-left">'</span>
+          <span class="m-left">m </span>
+          <span class="name">J</span>
+          <span class="m-left name">h</span>
+          <span class="m-left name">a</span>
+          <span class="m-left name">n</span>
+
+          <span class="m-left">,</span>
+          <br>
+          <span>D</span>
+          <span class="m-left">a</span>
+          <span class="m-left">t</span>
+          <span class="m-left">a</span>
+          <span>S</span>
+          <span class="m-left">c</span>
+          <span class="m-left">i</span>
+          <span class="m-left">e</span>
+          <span class="m-left">n</span>
+          <span class="m-left">t</span>
+          <span class="m-left">i</span>
+          <span class="m-left">s</span>
+          <span class="m-left">t</span>
+        </h1>
+        <p>Deep Learning / Machine Learning / Predictive Analytics</p>
+        <a href="#contact">contact</a>
+      </div>
+      <div class="profile-image">
+        <img src="img/jhan_profile.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="container about" id="about">
+      <h1>About</h1>
+      <div class="about-me-info">
+        <p>Hello, my name is Jhanett. I'm a DataScientist with experience in Python, R, Alteryx, Tableau, Data Studio, Google Analytics, SQL, BigQuery, A/B Testing, GTM, and Google Optimize.</p>
+        <p>My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).</p>
+        <p>I'm constantly learning new things. currently those things include gaining more experience with MongoDB, React, Express JS, and Node JS</p>
+      </div>
+      <img src="img/dotted-shape.png" alt="">
+    </div>
+
+    <div class="container skills" id="skills">
+      <h1>Skills</h1>
+      <p class="skills-info">My main focus is to develop habilities that permits me to manage data science project from scratch. I have a solid background in psychological studies, as well as in statistics, machine learning, deep learning, and web development. </p>
+      <div class="html">
+        <div class="tag-html">
+          <p>Psychology</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-html"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-css">
+          <p>ML</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-css"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-javascript">
+          <p>Development</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-javascript"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container work" id="work">
+      <h1>Work</h1>
+      <div class="work-category">
+        <button id="designing" class="active" onclick="showRequiredCategory(this)"">Web Designing</button>
+        <button id="animation" onclick="showRequiredCategory(this)">Web animation</button>
+        <button id="project" onclick="showRequiredCategory(this)">React Projects</button>
+      </div>
+      <div class="category-designing showCategory">
+        <a href=""><img src="img/1.png" alt=""></a>
+        <a href=""><img src="img/2.png" alt=""></a>
+        <a href=""><img src="img/3.png" alt=""></a>
+
+      </div>
+      <div class="category-animation hideCategory">
+        <a href=""><img src="img/1.png" alt=""></a>
+
+      </div>
+      <div class="category-project hideCategory">
+        <a href=""><img src="img/3.png" alt=""></a>
+        <a href=""><img src="img/2.png" alt=""></a>
+      </div>
+    </div>
+
+    <div class="container contact" id="contact">
+      <h1>Contact</h1>
+      <form>
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="email" placeholder="PortfolioPersonal@example.com" disabled>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <input type="submit">
+      </form>
+    </div>
+
+    <footer>
+      <hr>
+      <p>2020 Copyright. All rights reserved</p>
+    </footer>
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
